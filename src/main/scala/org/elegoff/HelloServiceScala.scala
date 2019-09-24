@@ -7,4 +7,7 @@ object HelloServiceScala {
     "Hello"
   }
 
+  def empty = 
+  {}
+
 }
