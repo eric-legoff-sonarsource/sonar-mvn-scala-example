@@ -8,3 +8,9 @@ object HelloServiceScala {
   }
 
 }
+
+def foo(a: Int) {
+  val i = 10;
+  return a + i;       // Noncompliant
+  hello;                // dead code
+}
