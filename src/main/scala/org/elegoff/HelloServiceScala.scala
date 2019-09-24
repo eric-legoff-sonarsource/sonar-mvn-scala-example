@@ -7,10 +7,11 @@ object HelloServiceScala {
     "Hello"
   }
 
+  def foo(a: Int) {
+    val i = 10;
+    return a + i;       // Noncompliant
+   hello;                // dead code
+  }
+
 }
 
-def foo(a: Int) {
-  val i = 10;
-  return a + i;       // Noncompliant
-  hello;                // dead code
-}
